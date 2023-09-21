@@ -1,0 +1,42 @@
+.icon-bar-horz {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+}
+
+.icon-bar-horz>a {
+    float: left;
+    text-align: center;
+    width: 20%;
+    padding: 12x 0;
+    transition: all 0.3sec ease;
+    color: white;
+    font-size: 36px;
+}
+
+.icon-bar-horz>a:hover {
+    background-color: #000;
+}
+
+.active {
+    background-color: #04AA6D;
+}
+
+.icon-bar-vert {
+    margin-top: 40px;
+    width: 90px;
+    background-color: #555;
+}
+
+.icon-bar-vert>a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+}
+
+.icon-bar-vert :hover {
+    background-color: #000;
+}
